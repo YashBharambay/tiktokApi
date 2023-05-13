@@ -13,6 +13,10 @@ app.use(session({
 }));
 
 // Login route
+
+app.get('/' ,(req,res) =>{
+    res.send("hello")
+})
 app.post('/login', (req, res) => {
   const { username, password } = req.body;
 
