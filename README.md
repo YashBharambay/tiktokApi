@@ -11,7 +11,7 @@ npm i
 
 ## Running the Application
 
-You could either start the server:
+You could start the server:
 
 ```bash
 node index.js
